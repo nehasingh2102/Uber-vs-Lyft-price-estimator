@@ -1,0 +1,17 @@
+<html>
+<header><h2> Trip Planner </h2></header>
+<body>
+	<form name="Coordinates" action="http://localhost:5000/form" method="POST">
+	Starting location<input type="text" name="starting_location"> <br>
+	First location<input type="text" name="first"> <br>
+	Second location<input type="text" name="second"> <br>
+	Third location<input type="text" name="third"> <br>
+	Fourth location<input type="text" name="fourth"> <br>
+	Fifth location<input type="text" name="fifth"> <br>
+	<input type="button" value="ADD Destination" name="add" onClick="new TextBox()">
+	<input type="button" value="Remove Destination" name="remove" onClick="removeTextBox()">
+	RoundTrip<input type="checkbox" name="roundtrip">
+	<input type="submit" name="submit" value="Submit">
+	</form>
+</body>
+</html>
